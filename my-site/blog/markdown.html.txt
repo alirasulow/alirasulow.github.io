@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Markdown - Расулов Али</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .post {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #007acc;
+        }
+        .date {
+            color: #666;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="post">
+        <h1>Легковесные языки разметки: Markdown</h1>
+        <div class="date">21 марта 2026</div>
+        
+        <h2>Что такое Markdown?</h2>
+        <p>Markdown — это легковесный язык разметки, созданный Джоном Грубером в 2004 году. Он позволяет писать форматированный текст с помощью простого синтаксиса.</p>
+        
+        <h2>Основной синтаксис</h2>
+        
+        <h3>Заголовки</h3>
+        <pre><code># Заголовок 1
+## Заголовок 2
+### Заголовок 3</code></pre>
+        
+        <h3>Форматирование текста</h3>
+        <pre><code>**жирный текст**
+*курсив*
+~~зачеркнутый~~</code></pre>
+        
+        <h3>Списки</h3>
+        <pre><code>- Элемент списка
+- Другой элемент
+
+1. Нумерованный список
+2. Второй пункт</code></pre>
+        
+        <h3>Ссылки и изображения</h3>
+        <pre><code>[Текст ссылки](https://example.com)
+![Альтернативный текст](image.jpg)</code></pre>
+        
+        <h2>Где используется Markdown?</h2>
+        <ul>
+            <li><strong>GitHub</strong> — README файлы, комментарии, Issues</li>
+            <li><strong>Статические сайты</strong> — Jekyll, Hugo, GitHub Pages</li>
+            <li><strong>Документация</strong> — MkDocs, Docusaurus</li>
+            <li><strong>Заметки</strong> — Obsidian, Notion, Typora</li>
+            <li><strong>Форумы</strong> — Reddit, Stack Overflow</li>
+        </ul>
+        
+        <h2>Преимущества Markdown</h2>
+        <ul>
+            <li>Простой и понятный синтаксис</li>
+            <li>Не требует специальных программ</li>
+            <li>Работает с Git и системами контроля версий</li>
+            <li>Конвертируется в HTML, PDF и другие форматы</li>
+            <li>Поддерживается на всех платформах</li>
+        </ul>
+        
+        <h2>Заключение</h2>
+        <p>Markdown — это важный инструмент для разработчиков, технических писателей и всех, кто работает с текстом. Он позволяет быстро создавать структурированный и читаемый контент.</p>
+        
+        <p><a href="../index.html">← Вернуться на главную</a></p>
+    </div>
+</body>
+</html>

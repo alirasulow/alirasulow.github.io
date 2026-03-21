@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Оформление отчета - Расулов Али</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .post {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h2 { color: #007acc; }
+        .date { color: #666; border-bottom: 1px solid #ddd; padding-bottom: 10px; }
+        a { color: #007acc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="post">
+        <h1>Оформление отчета: Правила и стандарты</h1>
+        <div class="date">21 марта 2026</div>
+        
+        <h2>Структура отчета</h2>
+        <ul>
+            <li><strong>Титульный лист</strong> — название, автор, преподаватель</li>
+            <li><strong>Содержание</strong> — оглавление с номерами страниц</li>
+            <li><strong>Введение</strong> — цель, задачи, актуальность</li>
+            <li><strong>Основная часть</strong> — разделы, подразделы</li>
+            <li><strong>Заключение</strong> — выводы, результаты</li>
+            <li><strong>Список литературы</strong> — источники по ГОСТ</li>
+        </ul>
+        
+        <h2>Требования ГОСТ</h2>
+        <ul>
+            <li>Шрифт: Times New Roman, 14 кегль</li>
+            <li>Интервал: 1.5</li>
+            <li>Поля: левое 30 мм, правое 15 мм, верхнее 20 мм, нижнее 20 мм</li>
+            <li>Нумерация страниц: внизу по центру</li>
+        </ul>
+        
+        <h2>Советы по оформлению</h2>
+        <ul>
+            <li>Используйте LaTeX или Microsoft Word</li>
+            <li>Проверяйте орфографию и пунктуацию</li>
+            <li>Добавляйте таблицы и рисунки с подписями</li>
+            <li>Оформляйте ссылки по ГОСТ</li>
+        </ul>
+        
+        <p><a href="../index.html">← Вернуться на главную</a></p>
+    </div>
+</body>
+</html>

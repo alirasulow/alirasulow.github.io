@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Расулов Али - Персональный сайт</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: #007acc;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+        }
+        
+        section {
+            background: white;
+            margin: 2rem 0;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        section h2 {
+            color: #007acc;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 0.5rem;
+        }
+        
+        .experience-item {
+            margin-bottom: 1.5rem;
+            padding-left: 1rem;
+            border-left: 3px solid #007acc;
+        }
+        
+        .date {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        ul {
+            margin-left: 1.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .skills-list li {
+            background: #007acc;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .resources-list li {
+            margin-bottom: 0.8rem;
+        }
+        
+        .resources-list a {
+            color: #007acc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .resources-list a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            
+            section {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="photo.jpg" alt="Мое фото" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid white; margin-bottom: 1rem;">
+            <h1>Расулов Али</h1>
+            <p>Студент РУДН | Фундаментальная информатика и информационные технологии</p>
+        </div>
+    </header>
+    
+    <main class="container">
+        <!-- О СЕБЕ -->
+        <section id="bio">
+            <h2>О себе</h2>
+            <p>Меня зовут Расулов Али. Я студент 1 курса Российского университета дружбы народов (РУДН), направление подготовки "Фундаментальная информатика и информационные технологии". Увлекаюсь программированием, веб-разработкой и современными технологиями.</p>
+        </section>
+        
+        <!-- ИНТЕРЕСЫ -->
+        <section id="interests">
+            <h2>Интересы</h2>
+            <ul>
+                <li>Программирование на Python и JavaScript</li>
+                <li>Веб-разработка</li>
+                <li>Git и системы контроля версий</li>
+                <li>Искусственный интеллект</li>
+                <li>Открытые технологии</li>
+            </ul>
+        </section>
+        
+        <!-- ОБРАЗОВАНИЕ -->
+        <section id="education">
+            <h2>Образование</h2>
+            <div class="experience-item">
+                <h3>Российский университет дружбы народов (РУДН)</h3>
+                <div class="date">2025 - 2029</div>
+                <p>Направление: 02.03.02 Фундаментальная информатика и информационные технологии</p>
+                <p>Квалификация: Бакалавр</p>
+                <p>Форма обучения: Очная</p>
+            </div>
+        </section>
+        
+        <!-- НАВЫКИ -->
+        <section id="skills">
+            <h2>Навыки</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>HTML5/CSS3</li>
+                <li>Git & GitHub</li>
+                <li>React</li>
+                <li>Docker</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+        
+        <!-- ОПЫТ -->
+        <section id="experience">
+            <h2>Опыт</h2>
+            <div class="experience-item">
+                <h3>Учебные проекты</h3>
+                <div class="date">2025 - настоящее время</div>
+                <ul>
+                    <li>Разработка персонального сайта на GitHub Pages</li>
+                    <li>Изучение Git и систем контроля версий</li>
+                    <li>Участие в университетских хакатонах</li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- ДОСТИЖЕНИЯ -->
+        <section id="accomplishments">
+            <h2>Достижения</h2>
+            <ul>
+                <li>Поступление в РУДН на бюджетное отделение</li>
+                <li>Участие в олимпиадах по программированию</li>
+                <li>Изучение современных технологий веб-разработки</li>
+            </ul>
+        </section>
+        
+        <!-- НАУЧНЫЕ РЕСУРСЫ -->
+        <section id="resources">
+            <h2>Научные и библиометрические ресурсы</h2>
+            <ul class="resources-list">
+                <li><a href="https://elibrary.ru/" target="_blank">eLibrary.ru</a> - Российская научная электронная библиотека</li>
+                <li><a href="https://scholar.google.com/" target="_blank">Google Scholar</a> - Академия Google</li>
+                <li><a href="https://orcid.org/" target="_blank">ORCID</a> - Международный идентификатор исследователя</li>
+                <li><a href="https://www.mendeley.com/" target="_blank">Mendeley</a> - Менеджер ссылок и академическая сеть</li>
+                <li><a href="https://www.researchgate.net/" target="_blank">ResearchGate</a> - Социальная сеть для ученых</li>
+                <li><a href="https://www.academia.edu/" target="_blank">Academia.edu</a> - Платформа для обмена исследованиями</li>
+                <li><a href="https://arxiv.org/" target="_blank">arXiv.org</a> - Архив научных препринтов</li>
+                <li><a href="https://github.com/alirasulow" target="_blank">GitHub</a> - Мой профиль разработчика</li>
+            </ul>
+        </section>
+        
+        <!-- БЛОГ -->
+        <section id="blog">
+            <h2>Блог</h2>
+            <ul>
+                <li><a href="blog/week2.html">Неделя 2: Создание персонального сайта</a> (21 марта 2026)</li>
+                <li><a href="blog/markdown.html">Легковесные языки разметки: Markdown</a> (21 марта 2026)</li>
+                <li><a href="blog/cicd.html">Непрерывная интеграция и развертывание (CI/CD)</a> (21 марта 2026)</li>
+                <li><a href="blog/report.html">Оформление отчета</a> (21 марта 2026)</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>© 2026 Расулов Али | Персональный сайт</p>
+        </div>
+    </footer>
+</body>
+</html>

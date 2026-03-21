@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Неделя 2 - Расулов Али</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .post {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #007acc;
+        }
+        .date {
+            color: #666;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="post">
+        <h1>Неделя 2: Создание персонального сайта</h1>
+        <div class="date">21 марта 2026</div>
+        
+        <h2>Что я сделал на этой неделе</h2>
+        <p>На этой неделе я начал создавать свой персональный сайт.</p>
+        
+        <h3>Основные задачи:</h3>
+        <ul>
+            <li>Создал структуру сайта на HTML и CSS</li>
+            <li>Добавил информацию о себе: биографию, интересы, образование</li>
+            <li>Добавил профессиональную информацию: навыки, опыт, достижения</li>
+            <li>Добавил фото на сайт</li>
+            <li>Настроил внешний вид сайта</li>
+        </ul>
+        
+        <h3>Что узнал нового:</h3>
+        <ul>
+            <li>Как работает HTML и CSS</li>
+            <li>Как создавать секции и стилизовать их</li>
+            <li>Как добавлять изображения на сайт</li>
+            <li>Как работать с VS Code</li>
+        </ul>
+        
+        <h3>Следующие шаги:</h3>
+        <p>На следующей неделе планирую добавить ссылки на научные ресурсы и создать двуязычную версию сайта.</p>
+        
+        <p><a href="../index.html">← Вернуться на главную</a></p>
+    </div>
+</body>
+</html>
