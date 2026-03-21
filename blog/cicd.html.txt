@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>CI/CD - Расулов Али</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .post {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h2 { color: #007acc; }
+        .date { color: #666; border-bottom: 1px solid #ddd; padding-bottom: 10px; }
+        code { background: #f4f4f4; padding: 2px 5px; border-radius: 3px; }
+        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; }
+        a { color: #007acc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="post">
+        <h1>Непрерывная интеграция и непрерывное развертывание (CI/CD)</h1>
+        <div class="date">21 марта 2026</div>
+        
+        <h2>Что такое CI/CD?</h2>
+        <p>CI/CD — это методология автоматизации процессов разработки программного обеспечения.</p>
+        
+        <h2>Continuous Integration (CI) - Непрерывная интеграция</h2>
+        <ul>
+            <li>Разработчики часто сливают код в общий репозиторий</li>
+            <li>Автоматическая сборка и тестирование</li>
+            <li>Быстрое обнаружение ошибок</li>
+        </ul>
+        
+        <h2>Continuous Delivery/Deployment (CD) - Непрерывная доставка/развертывание</h2>
+        <ul>
+            <li>Автоматическое развертывание на серверы</li>
+            <li>Мгновенные обновления для пользователей</li>
+            <li>Минимизация ручных операций</li>
+        </ul>
+        
+        <h2>Популярные инструменты CI/CD</h2>
+        <ul>
+            <li><strong>GitHub Actions</strong> — встроенный в GitHub</li>
+            <li><strong>GitLab CI/CD</strong> — для GitLab</li>
+            <li><strong>Jenkins</strong> — открытая платформа</li>
+        </ul>
+        
+        <h2>Пример GitHub Actions для GitHub Pages</h2>
+        <pre><code>name: Deploy to GitHub Pages
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/configure-pages@v2
+      - uses: actions/upload-pages-artifact@v1
+      - uses: actions/deploy-pages@v1</code></pre>
+        
+        <p><a href="../index.html">← Вернуться на главную</a></p>
+    </div>
+</body>
+</html>

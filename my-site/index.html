@@ -34,6 +34,27 @@
             font-size: 2.5rem;
         }
         
+        .lang-switch {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #007acc;
+            padding: 10px 15px;
+            border-radius: 5px;
+            z-index: 100;
+        }
+        
+        .lang-switch a {
+            color: white;
+            text-decoration: none;
+            margin: 0 5px;
+            font-weight: bold;
+        }
+        
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+        
         section {
             background: white;
             margin: 2rem 0;
@@ -115,10 +136,20 @@
             section {
                 padding: 1rem;
             }
+            
+            .lang-switch {
+                top: 10px;
+                right: 10px;
+                padding: 5px 10px;
+            }
         }
     </style>
 </head>
 <body>
+    <div class="lang-switch">
+        <a href="index.html">RU</a> | <a href="index_en.html">EN</a>
+    </div>
+    
     <header>
         <div class="container">
             <img src="photo.jpg" alt="Мое фото" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid white; margin-bottom: 1rem;">

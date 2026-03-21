@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rasulov Ali - Personal Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: #007acc;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+        }
+        
+        .lang-switch {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #007acc;
+            padding: 10px 15px;
+            border-radius: 5px;
+            z-index: 100;
+        }
+        
+        .lang-switch a {
+            color: white;
+            text-decoration: none;
+            margin: 0 5px;
+            font-weight: bold;
+        }
+        
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+        
+        section {
+            background: white;
+            margin: 2rem 0;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        section h2 {
+            color: #007acc;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 0.5rem;
+        }
+        
+        .experience-item {
+            margin-bottom: 1.5rem;
+            padding-left: 1rem;
+            border-left: 3px solid #007acc;
+        }
+        
+        .date {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        ul {
+            margin-left: 1.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .skills-list li {
+            background: #007acc;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .resources-list li {
+            margin-bottom: 0.8rem;
+        }
+        
+        .resources-list a {
+            color: #007acc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .resources-list a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            
+            section {
+                padding: 1rem;
+            }
+            
+            .lang-switch {
+                top: 10px;
+                right: 10px;
+                padding: 5px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="lang-switch">
+        <a href="index.html">RU</a> | <a href="index_en.html">EN</a>
+    </div>
+    
+    <header>
+        <div class="container">
+            <img src="photo.jpg" alt="My photo" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid white; margin-bottom: 1rem;">
+            <h1>Rasulov Ali</h1>
+            <p>RUDN Student | Fundamental Informatics and Information Technology</p>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section id="bio">
+            <h2>About Me</h2>
+            <p>My name is Rasulov Ali. I am a 1st year student at RUDN University, majoring in "Fundamental Informatics and Information Technology". I am interested in programming, web development and modern technologies.</p>
+        </section>
+        
+        <section id="interests">
+            <h2>Interests</h2>
+            <ul>
+                <li>Programming in Python and JavaScript</li>
+                <li>Web Development</li>
+                <li>Git and Version Control Systems</li>
+                <li>Artificial Intelligence</li>
+                <li>Open Source Technologies</li>
+            </ul>
+        </section>
+        
+        <section id="education">
+            <h2>Education</h2>
+            <div class="experience-item">
+                <h3>RUDN University (Peoples' Friendship University of Russia)</h3>
+                <div class="date">2025 - 2029</div>
+                <p>Field: Fundamental Informatics and Information Technology</p>
+                <p>Qualification: Bachelor</p>
+                <p>Study Mode: Full-time</p>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>HTML5/CSS3</li>
+                <li>Git & GitHub</li>
+                <li>React</li>
+                <li>Docker</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+        
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Educational Projects</h3>
+                <div class="date">2025 - present</div>
+                <ul>
+                    <li>Personal website development on GitHub Pages</li>
+                    <li>Learning Git and version control systems</li>
+                    <li>Participation in university hackathons</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="accomplishments">
+            <h2>Accomplishments</h2>
+            <ul>
+                <li>Admission to RUDN University on a budget</li>
+                <li>Participation in programming olympiads</li>
+                <li>Learning modern web development technologies</li>
+            </ul>
+        </section>
+        
+        <section id="resources">
+            <h2>Scientific and Bibliometric Resources</h2>
+            <ul class="resources-list">
+                <li><a href="https://elibrary.ru/" target="_blank">eLibrary.ru</a> - Russian Scientific Electronic Library</li>
+                <li><a href="https://scholar.google.com/" target="_blank">Google Scholar</a> - Google Academy</li>
+                <li><a href="https://orcid.org/" target="_blank">ORCID</a> - International Researcher Identifier</li>
+                <li><a href="https://www.mendeley.com/" target="_blank">Mendeley</a> - Reference Manager and Academic Network</li>
+                <li><a href="https://www.researchgate.net/" target="_blank">ResearchGate</a> - Social Network for Scientists</li>
+                <li><a href="https://www.academia.edu/" target="_blank">Academia.edu</a> - Platform for Sharing Research</li>
+                <li><a href="https://arxiv.org/" target="_blank">arXiv.org</a> - Scientific Preprint Archive</li>
+                <li><a href="https://github.com/alirasulow" target="_blank">GitHub</a> - My Developer Profile</li>
+            </ul>
+        </section>
+        
+        <section id="blog">
+            <h2>Blog</h2>
+            <ul>
+                <li><a href="blog/week2.html">Week 2: Creating a Personal Website</a> (March 21, 2026)</li>
+                <li><a href="blog/markdown.html">Lightweight Markup Languages: Markdown</a> (March 21, 2026)</li>
+                <li><a href="blog/cicd.html">Continuous Integration and Deployment (CI/CD)</a> (March 21, 2026)</li>
+                <li><a href="blog/report.html">Report Design</a> (March 21, 2026)</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>© 2026 Rasulov Ali | Personal Website</p>
+        </div>
+    </footer>
+</body>
+</html>
