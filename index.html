@@ -34,6 +34,27 @@
             font-size: 2.5rem;
         }
         
+        .lang-switch {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #007acc;
+            padding: 10px 15px;
+            border-radius: 5px;
+            z-index: 100;
+        }
+        
+        .lang-switch a {
+            color: white;
+            text-decoration: none;
+            margin: 0 5px;
+            font-weight: bold;
+        }
+        
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+        
         section {
             background: white;
             margin: 2rem 0;
@@ -85,6 +106,20 @@
             font-size: 0.9rem;
         }
         
+        .resources-list li {
+            margin-bottom: 0.8rem;
+        }
+        
+        .resources-list a {
+            color: #007acc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .resources-list a:hover {
+            text-decoration: underline;
+        }
+        
         footer {
             background: #333;
             color: white;
@@ -101,10 +136,20 @@
             section {
                 padding: 1rem;
             }
+            
+            .lang-switch {
+                top: 10px;
+                right: 10px;
+                padding: 5px 10px;
+            }
         }
     </style>
 </head>
 <body>
+    <div class="lang-switch">
+        <a href="index.html">RU</a> | <a href="index_en.html">EN</a>
+    </div>
+    
     <header>
         <div class="container">
             <img src="photo.jpg" alt="Мое фото" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid white; margin-bottom: 1rem;">
@@ -182,12 +227,29 @@
             </ul>
         </section>
         
+        <!-- НАУЧНЫЕ РЕСУРСЫ -->
+        <section id="resources">
+            <h2>Научные и библиометрические ресурсы</h2>
+            <ul class="resources-list">
+                <li><a href="https://elibrary.ru/" target="_blank">eLibrary.ru</a> - Российская научная электронная библиотека</li>
+                <li><a href="https://scholar.google.com/" target="_blank">Google Scholar</a> - Академия Google</li>
+                <li><a href="https://orcid.org/" target="_blank">ORCID</a> - Международный идентификатор исследователя</li>
+                <li><a href="https://www.mendeley.com/" target="_blank">Mendeley</a> - Менеджер ссылок и академическая сеть</li>
+                <li><a href="https://www.researchgate.net/" target="_blank">ResearchGate</a> - Социальная сеть для ученых</li>
+                <li><a href="https://www.academia.edu/" target="_blank">Academia.edu</a> - Платформа для обмена исследованиями</li>
+                <li><a href="https://arxiv.org/" target="_blank">arXiv.org</a> - Архив научных препринтов</li>
+                <li><a href="https://github.com/alirasulow" target="_blank">GitHub</a> - Мой профиль разработчика</li>
+            </ul>
+        </section>
+        
         <!-- БЛОГ -->
         <section id="blog">
             <h2>Блог</h2>
             <ul>
                 <li><a href="blog/week2.html">Неделя 2: Создание персонального сайта</a> (21 марта 2026)</li>
                 <li><a href="blog/markdown.html">Легковесные языки разметки: Markdown</a> (21 марта 2026)</li>
+                <li><a href="blog/cicd.html">Непрерывная интеграция и развертывание (CI/CD)</a> (21 марта 2026)</li>
+                <li><a href="blog/report.html">Оформление отчета</a> (21 марта 2026)</li>
             </ul>
         </section>
     </main>
